@@ -1,0 +1,68 @@
+# 🔐 CryptoLab
+
+Colección de ejercicios prácticos de criptografía implementados en Python. El proyecto abarca desde algoritmos clásicos y funciones hash hasta criptografía simétrica, asimétrica, firmas digitales y un gestor de contraseñas.
+
+## 📂 Contenido del repositorio
+
+| Archivo | Tema / Ejercicio |
+| :--- | :--- |
+| `cryptolab_01.py` | Cifrado César (criptografía clásica por sustitución) |
+| `cryptolab_02.py` | Cifrado Vigenère / Análisis de frecuencia |
+| `cryptolab_03.py` | Funciones hash criptográficas (SHA-256) |
+| `cryptolab_04.py` | Derivación de claves y uso de *Salt* |
+| `cryptolab_05.py` | Cifrado simétrico con AES |
+| `cryptolab_06.py` | Generación de claves y cifrado asimétrico con RSA |
+| `cryptolab_07.py` | Intercambio de claves (Diffie-Hellman) |
+| `cryptolab_08.py` | Creación y verificación de firmas digitales |
+| `cryptolab_09.py` | Certificados digitales / Integridad de archivos |
+| `cryptolab_10.py` | Proyecto final: Bóveda segura de contraseñas |
+
+## 🚀 Requisitos e instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com
+   cd cryptolab
+   ```
+
+2. Asegúrate de tener **Python 3.8+** instalado y activa un entorno virtual (opcional):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   ```
+
+3. Instala las dependencias necesarias (si usas librerías externas como `cryptography`):
+   ```bash
+   pip install cryptography
+   ```
+
+## 💻 Uso
+
+Ejecuta cualquier script directamente desde la terminal:
+
+```bash
+python cryptolab_01.py
+```
+
+---
+*Proyecto desarrollado con fines educativos para comprender los fundamentos de la seguridad informática.*
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos locales / sensibles de prueba
+*.db
+*.sqlite3
+*.key
+*.pem
+.env
+
+# Configuraciones de editores
+.vscode/
+.idea/
